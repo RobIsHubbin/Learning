@@ -1,0 +1,7 @@
+cats = {1:"Tigger", 2:"Smokey", 3:"Simba"}
+cats["Wilson"] = 1
+print(len(cats))
+del(cats["Wilson"])
+len(cats)
+print(len(cats))
+print(cats)
